@@ -52,6 +52,17 @@ h3{
 	margin-bottom: 100px;
 }
 
+.clearfix{
+	zoom:1;
+}
+
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+	visibility: hidden;
+}
+
 .btn:link,
 .btn:visited{
 	text-decoration: none;
@@ -107,6 +118,7 @@ h3{
 
 .about-section{
 	padding:50px;
+	background: #f4f4f4;
 }
 
 .lap-img{
@@ -160,12 +172,13 @@ h3{
 
 /*work section*/
 
-.work-heading{
+.section-heading{
 	font-size: 250%;
 	color: #000;
 	margin-bottom: 20px;
 	font-weight: 500;
-	margin-top: 150px;
+	margin-top:150px;
+	
 
 }
 
@@ -175,6 +188,8 @@ h3{
 	color: #555;
 	font-weight: 400;
 	margin-bottom: 30px;
+	line-height: 1.5;
+
 
 }
 
@@ -208,6 +223,7 @@ h3{
 	background: #000;
 	overflow: hidden;
 
+
 }
 
 .port-img img{
@@ -228,5 +244,97 @@ h3{
 
 }
 
+/*services*/
+
+.service-section{
+	text-align: center;
+	background: #f4f4f4;
+
+}
+.service-box{
+	padding:3%;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+}
+
+.service-box:hover{
+	border-radius: 25px;
+	box-shadow:inset 3px 3px 3px #d0d0d0, inset -3px  -3px 3px #f8f8f8;
+	transition: all 0.5s ease;
+
+}
+
+.col i{
+	font-size: 250%;
+	color: #6920b0;
+	display: block;
+	margin-bottom: 30px;
+	opacity: 1;
+	transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.col i:hover{
+	transform: scale(1);
+	opacity: 0.7;
+	font-size: 280%;
+
+
+}
+
+.service-heading{
+	font-size: 150%;
+	margin-bottom: 30px;
+	font-weight: 500;
+}
+
+.col .service-para{
+	color: #555;
+	/*font-family: monospace;*/
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.service-link{
+	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ed07b7;
+	font-weight: 400;
+}
+
+.service-link:hover{
+	border: 1px solid #6920b0;
+	border-radius: 30px;
+	padding: 10px;
+	cursor: pointer;
+	background: #6920b0;
+	color: #fff;
+	text-align: center;
+	transition: all .5s ease;
+
+}
+
+/*partners-section*/
+
+.partners-section{
+	text-align: center;
+}
+
+.partner-img{
+	width: 70%;
+	height: auto;
+	box-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+	border-radius: 50%;
+}
+
+.partner-img:hover{
+	border-radius: 50%;
+	cursor: pointer;
+	/*border:1px solid #ed07b7;*/
+	opacity: .9;
+	box-shadow:inset 3px 3px 3px #d0d0d0, inset -3px  -3px 3px #f8f8f8;
+	transition: all 0.5s ease;
+}
 
 
