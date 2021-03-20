@@ -1,0 +1,151 @@
+/*big tablet and small screen laptop*/
+@media only screen and (max-width:1200px){
+	html,body{
+		font-size: 14px;
+	}
+	.header-box-text h3{
+		font-size: 170%;
+	}
+} /*---- End Media ---*/
+
+/*small tablet and larger tablet */
+@media only screen and (max-width:1023px){
+	.main-nav li a:link{
+		font-size: 14px;
+	}
+	.header-box-text h1{
+		font-size: 400%;
+	}
+	.header-box-text h3{
+		font-size: 150%;
+	}
+	.about-box .about-heading{
+		font-size: 40px;
+	}
+	.about-box .about-heading-3{
+		font-size: 18px;
+	}
+	.about-box .about-para{
+		font-size: 16px;
+	}
+	.footer-nav li{
+		margin-right: 18px;
+	}
+} /*--- End Media ---*/
+
+
+/*mobile phone and small tablet*/
+@media only screen and (max-width:767px){
+		html,body{
+		font-size: 10px;
+	}
+	.footer-nav li{
+		margin-right: 12px;
+	}
+	.packages-heading{
+		margin-top: 100px;
+	}
+	.testi-heading{
+		margin-top: 30px;
+	}
+	.section-heading{
+		margin-top: 100px;
+	}
+	.about-box .about-heading{
+		font-size: 30px;
+	}
+	.about-box .about-heading-3{
+		font-size: 14px;
+	}
+	.about-box .about-para{
+		font-size: 12px;
+	}
+	.main-nav li a:link{
+		font-size: 12px;
+	}
+} /*--- End Media ---*/
+
+
+/*snall and larger mobile phone*/
+@media only screen and (max-width:480px){
+	html,body{
+		font-weight: 400;
+	}
+	.header-box{
+		width: 100%;
+	}
+	.header-box-text h1{
+		font-size: 250%;
+	}
+	.header-box-text h3{
+		font-size: 150%;
+	}
+	.header-box-text{
+		margin-bottom: 50px;
+	}
+	.lap-img{
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.about-box:last-child{
+		text-align: center;
+	}
+	.butt{
+		margin-top: 10px;
+		text-align: center;
+    	margin-bottom: 20px;
+	}
+	.about-box .about-heading,
+	.about-box .about-heading-3,7
+	.about-box .about-para{
+		text-align: center;
+	}
+
+	.section-heading{
+		margin-top: 50px;
+	}
+	.section-sub-heading::after{
+		margin-top: 15px;
+
+	}
+	
+	.span_1_of_4{
+		width: 45%;
+		margin-bottom: 20px;
+		margin-left: 15px;
+	}
+	.span_1_of_3{
+		padding: 0 10%;
+		margin-bottom: 5px;
+	}
+	.testi-heading{
+		margin-top: 0px;
+
+	}
+	.contact-form{
+		width: 80%;
+	}
+
+	.my-label{
+		padding-left: 0;
+	}
+
+.footer-nav,
+.socal-links{
+  	float: none;
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+  footer p{
+  	margin-top: 2px;
+  }
+
+  .main-nav li a:link{
+		font-size: 10px;
+	}
+
+	.work-portfolio li {
+		width: 50%;
+	}
+}/*---- End Media ---*/

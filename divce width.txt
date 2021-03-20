@@ -1,0 +1,7 @@
+1200 - 1024 -> laptop
+
+1024 - 768 -> screen in width
+
+768 - 480 -> tablet
+
+480 - 0 -> mobile
